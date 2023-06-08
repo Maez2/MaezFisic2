@@ -1,0 +1,145 @@
+/* Estilos generales */
+.header {
+    background-color: #1DA1F2;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #15202B; /* Color de fondo similar a Twitter */
+    color: #FFFFFF; /* Color de texto blanco */
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.center-text {
+    margin: 0 auto;
+    max-width: 600px;
+}
+ 
+.center-text2{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #1DA1F2; /* Color de fondo similar al botón de Twitter */
+    color: #FFFFFF; /* Color de texto blanco */
+    border: none;
+    border-radius: 4px;
+}
+.center-button {
+    display: block;
+    margin: 5px auto;
+  }
+  
+
+button:hover {
+    background-color: #0D95E8; /* Color de fondo al pasar el mouse */
+    cursor: pointer;
+}
+.center-button2 {
+    display:inline-flex;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #1DA1F2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .center-button2:hover {
+    background-color: #0D95E8;
+  }
+  
+  .center-button2:active {
+    background-color: #0C7ACD;
+  }
+
+/* Media queries para hacerlo responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+
+footer {
+    background-color: #1da1f2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+footer  a {
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
